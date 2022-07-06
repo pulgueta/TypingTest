@@ -6,7 +6,6 @@ import "./index.css";
 import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 import { BrowserRouter } from "react-router-dom";
 
-import '@fontsource/be-vietnam-pro/400.css'
 
 const theme = extendTheme({
   fonts: {
