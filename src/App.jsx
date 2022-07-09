@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 
-import { Landing } from "./views/";
+import { Landing, Test } from "./views/";
 
 import { Footer } from "./components/";
 
@@ -8,7 +8,8 @@ export const App = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Landing />} />
+        <Route index path="/" element={<Landing />} />
+        <Route path="/test" element={<Test />} />
       </Routes>
       <Footer />
     </>
